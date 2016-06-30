@@ -1,0 +1,589 @@
+#container
+{
+	width:100%;
+	background-image:url('../images/bg_bot.jpg');
+	background-repeat: repeat;
+	font: sans-serif;
+	font-size: 11;
+}
+title
+{
+	background-image: url("../images/logo_small.jpg");
+}
+#content
+{
+	color: black;
+	margin-left: 0%;
+	height:auto;
+	width:80%;
+
+}
+
+#sidebar
+{
+	float: left;
+}
+
+#icontent
+{
+	color: black;
+	height: 800px;
+}
+.row
+{
+
+color: black;
+height: 50px;
+}
+#dealerName
+{
+	width: 250px;
+	height: 25px
+}
+#dealerAddress
+{
+	padding-bottom: 15px;
+}
+#contactNumber
+{
+	width: 250px;
+	height: 25px
+}
+#proofOfDocument
+{
+	width: 250px;
+	height: 25px
+}
+#contractDate
+{
+	width: 250px;
+	height: 25px
+}
+.buttons
+{
+	background-color: black;
+	color: white;
+	border-radius: 2px;
+	
+	padding: 10px;
+	margin: 10px;
+	
+}
+
+.TEST2{
+       
+       display: none;
+    }
+    
+
+.buttons:HOVER {
+	background-color: #2098f5;
+}
+#vehiclenumber
+{
+	width: 250px;
+	height: 25px
+}
+#vehicleType
+{
+	width: 250px;
+	height: 25px
+}
+#vehicleStatus
+{
+	width: 250px;
+	height: 25px
+}
+#dealerId
+{
+	width: 250px;
+	height: 25px
+}
+#logincontent
+{
+
+	float: right;
+	text-align: center;
+	border: 1px;
+	border-style: solid;
+	width: 20%; 
+	
+
+
+	color: white;
+	background-color: #424542;
+	text-align: center;
+
+	color: white;
+	background-color: #424542;
+
+}
+.input
+{
+	width: 250px;
+	height: 25px;
+	border-radius: 10px;	
+}
+
+
+.input:focus { 
+background: #FFF;
+-webkit-box-shadow: 0 0 25px #CCC; 
+-moz-box-shadow: 0 0 25px #ccc; 
+box-shadow: 0 0 25px #CCC; 
+-webkit-transform: scale(1.05); 
+-moz-transform: scale(1.05); 
+transform: scale(1.05); 
+} 
+
+
+
+
+/*  .input  { 
+-moz-border-radius: 5px; 
+-webkit-border-radius: 5px; 
+background-color: #EAEAEA; 
+background: -moz-linear-gradient(top, #FFF, #EAEAEA); 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #FFF), color-stop(1.0, #EAEAEA)); 
+border: 1px solid #CACACA; 
+color: #444; 
+font-size: 1.oem; 
+margin: 0 0 10px; 
+padding: 5px 9px; 
+width:160px; 
+}  */
+ .input:focus { 
+background: #FFF;
+-webkit-box-shadow: 0 0 25px #CCC; 
+-moz-box-shadow: 0 0 25px #ccc; 
+box-shadow: 0 0 25px #CCC; 
+-webkit-transform: scale(1.05); 
+-moz-transform: scale(1.05); 
+transform: scale(1.05); 
+}
+
+.link
+
+{
+	background-color: black;
+	color: white;
+	border-radius: 3px;
+	
+	padding: 10px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.link : hover
+{
+	background-color: #2098f5;
+	color: white;
+}
+.footer
+{
+	height: 20px;
+}
+h3
+{
+	color: black;
+}
+h2
+{
+	color: black;
+}
+label.errmsg
+{
+	color:red;
+}
+.table
+{
+	width:600px;
+	border: 1px;
+	border-color: black;
+	
+}
+#tableform
+{
+	 border-color: black;
+	 border: 2px;
+	 border-style: solid; 
+	 width: 50%;
+	 margin-left: 300px;
+	 border-radius:60px;
+	 box-shadow: 20px 20px 10px #888888;
+}
+
+
+
+
+
+
+.CSSTableGenerator {
+	
+	margin:0px;padding:0px;
+	width:745px;
+	box-shadow: 10px 10px 5px #888888;
+	border:1px solid #000000;
+	
+	-moz-border-radius-bottomleft:14px;
+	-webkit-border-bottom-left-radius:14px;
+	border-bottom-left-radius:14px;
+	
+	-moz-border-radius-bottomright:14px;
+	-webkit-border-bottom-right-radius:14px;
+	border-bottom-right-radius:14px;
+	
+	-moz-border-radius-topright:14px;
+	-webkit-border-top-right-radius:14px;
+	border-top-right-radius:14px;
+	
+	-moz-border-radius-topleft:14px;
+	-webkit-border-top-left-radius:14px;
+	border-top-left-radius:14px;
+}.CSSTableGenerator table{
+    border-collapse: collapse;
+        border-spacing: 0;
+	width:100%;
+	height:100%;
+	text-align:center;
+	margin:0px;padding:0px;
+}.CSSTableGenerator tr:last-child td:last-child {
+	-moz-border-radius-bottomright:14px;
+	-webkit-border-bottom-right-radius:14px;
+	border-bottom-right-radius:14px;
+}
+.CSSTableGenerator table tr:first-child td:first-child {
+	-moz-border-radius-topleft:14px;
+	-webkit-border-top-left-radius:14px;
+	border-top-left-radius:14px;
+}
+.CSSTableGenerator table tr:first-child td:last-child {
+	-moz-border-radius-topright:14px;
+	-webkit-border-top-right-radius:14px;
+	border-top-right-radius:14px;
+}.CSSTableGenerator tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:14px;
+	-webkit-border-bottom-left-radius:14px;
+	border-bottom-left-radius:14px;
+}.CSSTableGenerator tr:hover td{
+	background-color:#D7D9D8;
+		
+
+}
+.CSSTableGenerator td{
+	vertical-align:middle;
+	
+	background-color:#ffffff;
+
+	border:1px solid #000000;
+	border-width:0px 1px 1px 0px;
+	text-align:center;
+	padding:7px;
+	font-size:13px;
+	font-family:Arial;
+	font-weight:normal;
+	color:#000000;
+}
+.CSSTableGenerator th{
+	vertical-align:middle;
+	/* background:-o-linear-gradient(bottom, #0057af 5%, #0057af 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0057af), color-stop(1, #0057af) );
+	background:-moz-linear-gradient( center top, #0057af 5%, #0057af 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#0057af", endColorstr="#0057af");	background: -o-linear-gradient(top,#0057af,0057af);
+ */	background-color:#3E4241;
+
+	border:1px solid #000000;
+	border-width:0px 1px 1px 0px;
+	text-align:center;
+	padding:7px;
+	font-size:16px;
+	font-family:Arial;
+	font-weight:normal;
+	color:white;
+}
+
+.CSSTableGenerator th a{
+	vertical-align:middle;
+	/* background:-o-linear-gradient(bottom, #0057af 5%, #0057af 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0057af), color-stop(1, #0057af) );
+	background:-moz-linear-gradient( center top, #0057af 5%, #0057af 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#0057af", endColorstr="#0057af");	background: -o-linear-gradient(top,#0057af,0057af);
+ */	
+
+	
+	text-align:center;
+	padding:7px;
+	font-size:16px;
+	font-family:Arial;
+	font-weight:normal;
+	color:white;
+}
+
+
+.CSSTableGenerator tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}.CSSTableGenerator tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}.CSSTableGenerator tr:last-child td:last-child{
+	border-width:0px 0px 0px 1px;
+}
+
+.CSSTableGenerator tr:last-child td:last-child{
+	border-width:1px 0px 0px 1px;
+}
+.CSSTableGenerator tr:first-child td{
+		/* background:-o-linear-gradient(bottom, #0057af 5%, #0057af 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0057af), color-stop(1, #0057af) );
+	background:-moz-linear-gradient( center top, #0057af 5%, #0057af 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#0057af", endColorstr="#0057af");	background: -o-linear-gradient(top,#0057af,0057af); */
+
+	background-color: white;
+	border:0px solid #000000;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:13px;
+	font-family:Arial;
+	
+	color:black;
+}
+.CSSTableGenerator tr:first-child:hover td{
+	/* background:-o-linear-gradient(bottom, #0057af 5%, #0057af 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0057af), color-stop(1, #0057af) );
+	background:-moz-linear-gradient( center top, #0057af 5%, #0057af 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#0057af", endColorstr="#0057af");	background: -o-linear-gradient(top,#0057af,0057af);
+*/
+	background-color:#D7D9D8;} 
+.CSSTableGenerator tr: first-child td:first-child{
+	border-width:0px 0px 1px 1px;
+}
+.CSSTableGenerator tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
+}
+
+ /*  ====================  search bar styling  ================= */
+ 
+ 
+/****************************************
+	CSS 3 SEARCH FORM BY CAMERON BANEY
+    Design Blog: http://blog.cameronbaney.com 
+	Twitter: @cameronbaney
+****************************************/
+
+#search-form
+    {
+    	margin-left: 0px;
+    
+	}
+	#search
+	{
+	float: inherit;
+	margin-left: 0px;
+	
+	}
+
+/*** TEXT BOX ***/
+.searchme{
+	background: #fafafa; /* Fallback color for non-css3 browsers */
+	
+	/* Gradients */
+	background: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(250,250,250)), color-stop(1, rgb(230,230,230)));
+	background: -moz-linear-gradient( center top, rgb(250,250,250) 0%, rgb(230,230,230) 100%);
+	
+	border: 0;
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid rgba(255,255,255,.8);
+	font-size: 13px;
+	margin: 4px;
+	padding: 5px;
+	width: 150px;
+	
+	/* Rounded Corners */
+	border-radius: 17px; 
+	-webkit-border-radius: 17px;
+	-moz-border-radius: 17px;
+	
+	/* Shadows */
+	box-shadow: -1px -1px 2px rgba(0,0,0,.3), 0 0 1px rgba(0,0,0,.2);
+	-webkit-box-shadow: -1px -1px 2px rgba(0,0,0,.3), 0 0 1px rgba(0,0,0,.2);
+	-moz-box-shadow: -1px -1px 2px rgba(0,0,0,.3), 0 0 1px rgba(0,0,0,.2);
+}
+
+#searchcriteria
+{
+	background: #fafafa; /* Fallback color for non-css3 browsers */
+	
+	/* Gradients */
+	background: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(250,250,250)), color-stop(1, rgb(230,230,230)));
+	background: -moz-linear-gradient( center top, rgb(250,250,250) 0%, rgb(230,230,230) 100%);
+	float: none;
+	border: 0;
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid rgba(255,255,255,.8);
+	font-size: 16px;
+	margin:10px;
+	padding: 0;
+	width: 150px;
+	
+	/* Rounded Corners */
+	border-radius: 17px; 
+	-webkit-border-radius: 17px;
+	-moz-border-radius: 17px;
+	
+	/* Shadows */
+	box-shadow: -1px -1px 2px rgba(0,0,0,.3), 0 0 1px rgba(0,0,0,.2);
+	-webkit-box-shadow: -1px -1px 2px rgba(0,0,0,.3), 0 0 1px rgba(0,0,0,.2);
+	-moz-box-shadow: -1px -1px 2px rgba(0,0,0,.3), 0 0 1px rgba(0,0,0,.2);
+		
+}
+
+/*** USER IS FOCUSED ON TEXT BOX ***/
+.searchme:focus{
+	outline: none;
+	background: #fff; /* Fallback color for non-css3 browsers */
+	
+	/* Gradients */
+	background: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(255,255,255)), color-stop(1, rgb(235,235,235)));
+	background: -moz-linear-gradient( center top, rgb(255,255,255) 0%, rgb(235,235,235) 100%);
+}
+
+/*** SEARCH BUTTON ***/
+.searchbt{
+	background-color: #3E4241;/* Fallback color for non-css3 browsers */
+	
+	/* Gradients */
+	/* background: -webkit-gradient( linear, left top, left bottom, color-stop(0, rgb(79,188,32)), color-stop(0.15, rgb(73,157,34)), color-stop(0.88, rgb(62,135,28)), color-stop(1, rgb(49,114,21)));
+	background: -moz-linear-gradient( center top, rgb(79,188,32) 0%, rgb(73,157,34) 15%, rgb(62,135,28) 88%, rgb(49,114,21) 100%);
+ */	
+	border: 0;
+	color: #eee;
+	cursor: pointer;
+	float: inherit;
+	font: 13px Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	height: 30px;
+	margin: 4px;
+	
+	text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+	width: 84px;
+	outline: none;
+	
+	/* Rounded Corners */
+	border-radius: 30px; 
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	
+	/* Shadows */
+	box-shadow: -1px -1px 1px rgba(255,255,255,.5), 1px 1px 0 rgba(0,0,0,.4);
+	-moz-box-shadow: -1px -1px 1px rgba(255,255,255,.5), 1px 1px 0 rgba(0,0,0,.2);
+	-webkit-box-shadow: -1px -1px 1px rgba(255,255,255,.5), 1px 1px 0 rgba(0,0,0,.4);
+}
+/*** SEARCH BUTTON HOVER ***/
+.searchbt:hover {
+	background: #D7D9D8; /* Fallback color for non-css3 browsers */
+	
+	/* Gradients */
+	/* background: -webkit-gradient( linear, left top, left bottom, color-stop(0, rgb(89,222,27)), color-stop(0.15, rgb(83,179,38)), color-stop(0.8, rgb(66,143,27)), color-stop(1, rgb(54,120,22)));
+	background: -moz-linear-gradient( center top, rgb(89,222,27) 0%, rgb(83,179,38) 15%, rgb(66,143,27) 80%, rgb(54,120,22) 100%); */
+}
+.searchbt:active {
+	background: #4ea923; /* Fallback color for non-css3 browsers */
+	
+	/* Gradients */
+	/* background: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(89,222,27)), color-stop(0.15, rgb(83,179,38)), color-stop(0.8, rgb(66,143,27)), color-stop(1, rgb(54,120,22)));
+	background: -moz-linear-gradient( center bottom, rgb(89,222,27) 0%, rgb(83,179,38) 15%, rgb(66,143,27) 80%, rgb(54,120,22) 100%);
+ */}
+ 
+ 
+ 
+ 
+ 
+ 
+ /*   pop-up box                        */
+ 
+ 
+ #dialog-overlay {
+    /* set it to fill the whil screen */
+    width:100%; 
+    height:100%;
+    
+    /* transparency for different browsers */
+    filter:alpha(opacity=50); 
+    -moz-opacity:0.5; 
+    -khtml-opacity: 0.5; 
+    opacity: 0.5; 
+    background:#000; 
+    /* make sure it appear behind the dialog box but above everything else */
+    position:absolute; 
+    top:0; left:0; 
+    z-index:3000; 
+    /* hide it by default */
+    display:none;
+}
+#dialog-box {
+    
+    /* css3 drop shadow */
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    
+    /* css3 border radius */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    
+    background:#eee;
+    /* styling of the dialog box, i have a fixed dimension for this demo */ 
+    width:328px; 
+    
+    /* make sure it has the highest z-index */
+    position:absolute; 
+    z-index:5000; 
+    /* hide it by default */
+    display:none;
+}
+#dialog-box .dialog-content {
+    /* style the content */
+    text-align:left; 
+    padding:10px; 
+    margin:13px;
+    color:#666; 
+    font-family:arial;
+    font-size:11px; 
+}
+a.button {
+    /* styles for button */
+    margin:10px auto 0 auto;
+    text-align:center;
+    display: block;
+    width:50px;
+    padding: 5px 10px 6px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1;
+    
+    /* button color */
+    background-color: #e33100;
+    
+    /* css3 implementation :) */
+    /* rounded corner */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    
+    /* drop shadow */
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    
+    /* text shaow */
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    position: relative;
+    cursor: pointer;
+    
+}
+a.button:hover {
+    background-color: #c33100;    
+}
+/* extra styling */
+#dialog-box .dialog-content p {
+    font-weight:700; margin:0;
+}
+#dialog-box .dialog-content ul {
+    margin:10px 0 10px 20px; 
+    padding:0; 
+    height:50px;
+}
+ 

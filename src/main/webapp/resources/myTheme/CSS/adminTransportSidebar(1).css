@@ -1,0 +1,94 @@
+#actorsidemenu
+{
+	color : white;
+	height : 700px;
+}
+
+ul#actorsidemenu li a 
+{
+	font: normal, Helvetica, sans-serif;
+	font-stretch: expanded;
+	color: white;
+	display:block;
+	border-width:1px;
+	border-color: black;
+	border-style:solid;
+	font-size: 15px;
+	font-weight:bold;
+	margin: 15px 15px 15px 15px;
+	padding: 3px;
+	text-decoration: none;	
+	font-variant: small-caps;
+	position: relative;
+}
+
+ul#actorsidemenu li ul.submenu {	
+	display:none;
+    position: absolute;  
+    oapcity:0.9; 
+
+}
+ul#actorsidemenu li:hover ul.submenu {    
+	display:inline;
+    padding:2px;
+    text-decoration: none;
+    margin-left:250px;
+	margin-top:-50px;
+	border-radius:20px;
+	oapcity:0.9;
+}
+#actorsidemenu li a:hover
+{
+	background: #2098f5;
+
+	
+}
+ul#actorsidemenu li ul.submenu li a,ul#actorsidemenu li ul.submenu li a span, ul#actorsidemenu li ul.submenu li a:hover{
+	text-decoration: none;
+	color:white;
+	font-size:18px;	
+	padding:10px;
+	width:180px;
+	oapcity:0.9;
+}
+ul#actorsidemenu li:hover ul.submenu {    	
+	text-decoration: none;
+	
+	oapcity:0.9;
+	}
+ul#actorsidemenu li:hover ul.submenu a:hover {    	
+	text-decoration: none;
+
+	oapcity:0.9;
+}
+#adminsidebar
+{
+
+	width : 20%;
+	float: left;
+}
+#admincontent
+{
+	width : 79%;
+	float: left;
+
+text-align: center;
+
+}
+
+#logincontent
+{
+	width : 20%;
+	float: right;
+	text-align: center;
+	background-color: #F5F5F5;
+	height:210px;
+	
+}
+#adminnewscolumn
+{
+	float: none;
+	height: 40%;
+	background-color: #F5F5F5;
+	clear: inherit;
+}
